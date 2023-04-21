@@ -38,7 +38,6 @@ JDBC   就是使用Java语言操作关系型数据库的一套API
 
 * 创建工程，导入驱动jar包
 
-  <img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725133015535.png" alt="image-20210725133015535" style="zoom:90%;" />
 
 * 注册驱动
 
