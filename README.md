@@ -8,7 +8,6 @@ JDBC   就是使用Java语言操作关系型数据库的一套API
 >
 > 全称：( Java DataBase Connectivity ) Java 数据库连接
 
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725130537815.png" alt="image-20210725130537815" style="zoom:80%;" />
 
 ### 1.2  JDBC本质
 
@@ -25,7 +24,7 @@ JDBC   就是使用Java语言操作关系型数据库的一套API
 
 先来看看通过Java操作数据库的流程
 
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725163745153.png" alt="image-20210725163745153" style="zoom:80%;" />
+
 
 第一步：编写Java代码
 
@@ -79,40 +78,6 @@ JDBC   就是使用Java语言操作关系型数据库的一套API
 
 * 释放资源
 
-### 2.2  具体操作
-
-* 创建新的空的项目
-
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725165156501.png" alt="image-20210725165156501" style="zoom:70%;" />
-
-* 定义项目的名称，并指定位置
-
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725165220829.png" alt="image-20210725165220829" style="zoom:70%;" />
-
-* 对项目进行设置，JDK版本、编译版本
-
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725165349564.png" alt="image-20210725165349564" style="zoom:70%;" />
-
-* 创建模块，指定模块的名称及位置
-
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725165536898.png" alt="image-20210725165536898" style="zoom:70%;" />
-
-* 导入驱动包
-
-  将mysql的驱动包放在模块下的lib目录（随意命名）下，并将该jar包添加为库文件
-
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725165657556.png" alt="image-20210725165657556" style="zoom:80%;" />
-
-* 在添加为库文件的时候，有如下三个选项
-  * Global Library  ： 全局有效
-  * Project Library :   项目有效
-  * Module Library ： 模块有效
-
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725165751273.png" alt="image-20210725165751273" style="zoom:80%;" />
-
-* 在src下创建类
-
-<img src="D:\Download\Java 黑马\Java web\03 JDBC\04-讲义\assets\image-20210725170004319.png" alt="image-20210725170004319" style="zoom:70%;" />
 
 * 编写代码如下
 
